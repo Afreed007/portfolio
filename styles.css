@@ -427,7 +427,7 @@ footer .col .news-col form button i{
   color: whitesmoke;
 }
 
-.contact-main{
+/* .contact-main{
   background-color:#ffb742;
   display: flex;
   flex-direction: column;
@@ -481,13 +481,12 @@ footer .col .news-col form button i{
 
 .contact-ftr a:hover{
   color:#ffb742;
-}
+} */
 
 .contact-p p{
   color: #fb8c00;
   font-size:80px;
   font-weight: 300;
-  font-style: oblique;
   font-family:Arial, Helvetica, sans-serif;
   
 }
@@ -496,4 +495,54 @@ footer .col .news-col form button i{
   margin-left:95px;
   height: 193px;
   width: 527px;
+}
+
+.contact-main{
+  background-color:#ffb742 ;
+  width:fit-content ;
+  margin-left: 850px;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column !important;
+  gap: 30px;
+  border-radius: 20px;
+  box-shadow: #fb8c00;
+  padding: 15px;
+}
+
+.contact-main h4{
+  margin-left: 25px;  
+  margin-right: 25px;
+}
+
+.contact-main ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.contact-main ul li a{
+  color:#000;
+}
+.cer-main h1{
+  color: #fb8c00;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cer img {
+  margin: 0 auto;
+  size:500px;
+}
+.cer h2{
+  color: #ffb742;
+  text-align: center;
 }
